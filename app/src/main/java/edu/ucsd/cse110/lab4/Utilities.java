@@ -20,7 +20,7 @@ public class Utilities {
         alertBuilder.create().show();
     }
 
-    public static Optional<Integer> parseInt(String str) {
+    public static Optional<Integer> parseCount(String str) {
         try {
             return Optional.of(Integer.parseInt(str));
         } catch (NumberFormatException e) {
