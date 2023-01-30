@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        Utilities.showAlert(this, String.format("I got the number %d", maxCount));
-
+        intent.putExtra("max_count", maxCount);
+        startActivity(intent);
     }
 }
