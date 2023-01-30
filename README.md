@@ -12,5 +12,6 @@ the UI updates you told it to. The app wil appear unresponsive to the user.
 
 ### Question 2
 
-TextView#setText(String)
-TextView#setVisibility(int)
+TextView.setText(String)
+
+TextView.setVisibility(int)
